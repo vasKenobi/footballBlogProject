@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 
 
@@ -42,6 +43,16 @@ const PostListItem = ({
       
 
     )
+  }
+
+  PostListItem.propTypes = {
+      category:PropTypes.string.isRequired,
+      title:PropTypes.string.isRequired,
+      description:PropTypes.string.isRequired,
+      date:PropTypes.string.isRequired,
+      author:PropTypes.string.isRequired,
+      image:PropTypes.string.isRequired,
+
   }
 
   export default PostListItem
