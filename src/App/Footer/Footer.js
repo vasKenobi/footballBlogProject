@@ -1,4 +1,5 @@
 import React from 'react'
+import footerLogo from '../../images/version/blog-football-footer-logo.png'
 
 const Footer = () => {
     return (
@@ -8,7 +9,7 @@ const Footer = () => {
                     <div class="col-lg-8 offset-lg-2">
                         <div class="widget">
                             <div class="footer-text text-center">
-                                <a href="blog-football-index.html"><img src="images/version/blog-football-footer-logo.png" alt="" class="img-fluid"/></a>
+                                <a href="blog-football-index.html"><img src={footerLogo} alt="" class="img-fluid"/></a>
                                 <p>Football blog - last news, interesting articles, forecasts.</p>
                                 <div class="social">
                                     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>              
