@@ -15,9 +15,9 @@ const Mainsection = () => {
                 <div className="row">
                     <div className="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div className="page-wrapper">
-                            <div className="blog-list clearfix">
+                            
                                 <Postlist/>
-                            </div>
+                            
                         </div>
 
                         <hr className="invis"/>
