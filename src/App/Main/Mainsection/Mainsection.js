@@ -11,6 +11,13 @@ import BL from '../Category/BL'
 import ContactPage from '../ContactPage/ContactPage'
 import Article from '../Articles/Article'
 import BlogFootballEPL from '../Articles/BlogFootballEPL'
+import BlogFootballMSL from '../Articles/BlogFootballMSL'
+import BlogFootballBL from '../Articles/BlogFootballBL'
+import BlogFootballEPLKlopp from '../Articles/BlogFootballEPLKlopp'
+import BlogFootballEPLLeicester from '../Articles/BlogFootballEPLLeicester'
+import BlogFootballEPLTopScorer from '../Articles/BlogFootballEPLTopScorer'
+import BlogFootballEPLTopScoreLFC from '../Articles/BlogFootballTopScoreLFC'
+import BlogFootballEPLVardy from '../Articles/BlogFootballEPLVardy'
 
 
 
@@ -31,6 +38,13 @@ const Mainsection = () => {
                         <Route path="/Contact" exact component={ContactPage}/>
                         <Route path="/Article" exact component={Article}/>
                         <Route path="/BlogFootballEPL" exact component={BlogFootballEPL}/>
+                        <Route path="/BlogFootballMSL" exact component={BlogFootballMSL}/>
+                        <Route path="/BlogFootballBL" exact component={BlogFootballBL}/>
+                        <Route path="/BlogFootballEPLKlopp" exact component={BlogFootballEPLKlopp}/>
+                        <Route path="/BlogFootballEPLLeicester" exact component={BlogFootballEPLLeicester}/>
+                        <Route path="/BlogFootballEPLTopScorer" exact component={BlogFootballEPLTopScorer}/>
+                        <Route path="/BlogFootballEPLTopScoreLFC" exact component={BlogFootballEPLTopScoreLFC}/>
+                        <Route path="/BlogFootballEPLVardy" exact component={BlogFootballEPLVardy}/>
                             
                         </div>
 
