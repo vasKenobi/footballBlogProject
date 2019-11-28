@@ -6,13 +6,22 @@ import PropTypes from 'prop-types';
 
 class PostListItem extends Component {
   render(){
+      const{
+          category,
+          title,
+          description,
+          date,
+          author,
+          image,
+
+      }=this.props
 
     return (
                                 <div className="blog-box row">
                                     <div className="col-md-4">
                                         <div className="post-media">
                                             <a href="blog-football-EPL.html" title="">
-                                                <img src={this.props.image} alt="" className="img-fluid"/>
+                                                <img src={image} alt="" className="img-fluid"/>
                                                 <div className="hovereffect"></div>
                                             </a>
                                         </div>
@@ -20,12 +29,12 @@ class PostListItem extends Component {
 
                                     <div className="blog-meta big-meta col-md-8">
                                     
-                                        <span className="bg-aqua"><a href="blog-football-category-EPL.html" title="">{this.props.category}</a></span>
-                                        <h4><a href="blog-football-EPL.html" title="">{this.props.title}</a></h4>
+                                        <span className="bg-aqua"><a href="blog-football-category-EPL.html" title="">{category}</a></span>
+                                        <h4><a href="blog-football-EPL.html" title="">{title}</a></h4>
                                         <p>{this.props.description}</p>
                                      
-                                        <small><a href="blog-football-EPL.html" title="">{this.props.date}</a></small>
-                                        <small><a href="#" title="">{this.props.author}</a></small>
+                                        <small><a href="blog-football-EPL.html" title="">{date}</a></small>
+                                        <small><a href="#" title="">{author}</a></small>
                                         
                                     </div>
                                 </div>
