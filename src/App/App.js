@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{Component} from 'react'
 
 import '../css/bootstrap.css'
 import '../css/colors.css'
@@ -12,15 +12,17 @@ import Main from './Main/Main'
 import Footer from './Footer/Footer'
   
 
-const App = () => {
-	return (
-    <div>
-        <Header/>
-			  <Main/>
-			  <Footer/>
+class App extends Component {
+  render(){
+    return (
+      <div>
+          <Header/>
+          <Main/>
+          <Footer/>
 
-  </div>
-  )
+    </div>
+    )
+  }
 }
 
 
