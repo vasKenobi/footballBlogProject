@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import logo from '../../../images/version/blog-football-logo.png'
 
 const Logo = () => {
@@ -9,7 +10,7 @@ const Logo = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="logo">
-                            <a href="blog-football-index.html"><img src={logo} alt="" /></a>
+                        <Link to="/"><img src={logo} alt="" /></Link>
                         </div>
                     </div>
                 </div>

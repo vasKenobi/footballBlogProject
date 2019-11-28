@@ -1,7 +1,9 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import LFC_MC_Preview from '../../../images/EPL/LFC_MC_Preview.png'
 import lodeiro from '../../../images/MSL/lodeiro.png'
 import BMteam from '../../../images/BL/BMteam.png'
+
 
 const Firstsection = () => {
     return (
@@ -14,8 +16,8 @@ const Firstsection = () => {
                              <div className="shadoweffect">
                                 <div className="shadow-desc">
                                     <div className="blog-meta">
-                                        <span className="bg-aqua"><a href="blog-football-category-EPL.html" title="">English Premier League</a></span>
-                                        <h4><a href="blog-football-EPL.html" title="">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI </a></h4>
+                                        <span className="bg-aqua"><a title=""><Link to="/EnglishPL">English Premier League</Link></a></span>
+                                        <h4><a title=""><Link to="/BlogFootballEPL">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI</Link> </a></h4>
                                         <small><a href="blog-football-EPL.html" title="">08 November, 2019</a></small>
                                         <small><a href="#" title="">by Gzhegozh Bzhezh</a></small>
                                     </div>
