@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import AboutAuthor from './LowSection/AboutAuthor'
 import YouMayAlsoLike from './LowSection/YouMayAlsoLike'
 import Comments from './LowSection/Comments'
@@ -18,14 +20,14 @@ const BlogFootballBL = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a href="blog-football-category-BL.html" title="">German Bundesliga</a></span>
+                            <span class="color-green"><a title=""><Link to="/BundesL">German Bundesliga</Link></a></span>
 
                                 <h3>What next for Bayern following Kovac sacking?</h3>
 
                                 <div class="blog-meta big-meta">
-                                    <small><a href="blog-football-BL.html" title="">05 November, 2019</a></small>
-                                    <small><a href="blog-football-BL.html" title="">by Gzhegozh</a></small>
-                                    <small><a href="#" title=""><i class="fa fa-eye"></i> 4444</a></small>
+                                        <small><a title=""><Link to="/">5 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                    
                                 </div>
 
                                 <PostSharing/>
@@ -86,10 +88,10 @@ const BlogFootballBL = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Bayern</span>
-                                    <small><a href="#" title="">New coash</a></small>
-                                    <small><a href="#" title="">Chances</a></small>
-                                    <small><a href="#" title="">Changes</a></small>
-                                    <small><a href="#" title="">Possibility</a></small>
+                                    <small><a title=""><Link to="/">New coash</Link></a></small>
+                                    <small><a title=""><Link to="/">Chances</Link></a></small>
+                                    <small><a title=""><Link to="/">Changes</Link></a></small>
+                                    <small><a title=""><Link to="/">Possibility</Link></a></small>
                                 </div>
 
                                 <PostSharing/>

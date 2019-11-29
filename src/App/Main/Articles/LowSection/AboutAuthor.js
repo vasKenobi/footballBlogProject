@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const AboutAuthor = () => {
     return (
@@ -14,11 +15,11 @@ const AboutAuthor = () => {
                                         <p>World Famous Football expert, Gzhegozh "Iceman" Bzhezhishchekevich writes great articles and makes very accurate forecasts.</p>
 
                                         <div class="topsocial">
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fa fa-youtube"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
-                                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fa fa-instagram"></i></a>
+                                            <a data-toggle="tooltip" data-placement="bottom" title="Facebook"><Link to="/"><i class="fa fa-facebook"></i></Link></a>
+                                            <a data-toggle="tooltip" data-placement="bottom" title="Youtube"><Link to="/"><i class="fa fa-youtube"></i></Link></a>
+                                            <a data-toggle="tooltip" data-placement="bottom" title="Pinterest"><Link to="/"><i class="fa fa-pinterest"></i></Link></a>
+                                            <a data-toggle="tooltip" data-placement="bottom" title="Twitter"><Link to="/"><i class="fa fa-twitter"></i></Link></a>
+                                            <a data-toggle="tooltip" data-placement="bottom" title="Instagram"><Link to="/"><i class="fa fa-instagram"></i></Link></a>
                                         </div>
 
                                     </div>

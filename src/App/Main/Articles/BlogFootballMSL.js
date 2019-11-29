@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import AboutAuthor from './LowSection/AboutAuthor'
 import YouMayAlsoLike from './LowSection/YouMayAlsoLike'
 import Comments from './LowSection/Comments'
@@ -18,14 +20,14 @@ const BlogFootballMSL = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                                <span class="color-green"><a href="blog-football-category-MSL.html" title="">Major Soccer League</a></span>
+                                <span class="color-green"><a title=""><Link to="/MajorSL">Major Soccer League</Link></a></span>
 
                                 <h3>Lodeiro vs Pozuelo: The creative pair central as Seattle meet Toronto</h3>
 
                                 <div class="blog-meta big-meta">
-                                    <small><a href="blog-football-MSL.html" title="">09 November, 2019</a></small>
-                                    <small><a href="blog-football-MSL.html" title="">by Gzhegozh</a></small>
-                                    <small><a href="#" title=""><i class="fa fa-eye"></i> 9999</a></small>
+                                        <small><a title=""><Link to="/">9 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                    
                                 </div>
 
                                 <PostSharing/>
@@ -72,10 +74,10 @@ const BlogFootballMSL = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a href="#" title="">MSL</a></small>
-                                    <small><a href="#" title="">Cup Final</a></small>
-                                    <small><a href="#" title="">Season Final</a></small>
-                                    <small><a href="#" title="">Challenge</a></small>
+                                    <small><a title=""><Link to="/">MLS</Link></a></small>
+                                    <small><a title=""><Link to="/">Cup Final</Link></a></small>
+                                    <small><a title=""><Link to="/">Season Final</Link></a></small>
+                                    <small><a title=""><Link to="/">Challenge</Link></a></small>
                                 </div>
 
                                 <PostSharing/>

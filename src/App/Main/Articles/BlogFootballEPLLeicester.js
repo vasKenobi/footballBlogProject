@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import AboutAuthor from './LowSection/AboutAuthor'
 import YouMayAlsoLike from './LowSection/YouMayAlsoLike'
 import Comments from './LowSection/Comments'
@@ -18,14 +20,14 @@ const BlogFootballEPLLeicester = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a href="blog-football-category-EPL.html" title="">English Premier League</a></span>
+                            <span class="color-green"><a title=""><Link to="/EnglishPL">English Permier League</Link></a></span>
 
                                 <h3>Leicester star triumphs to land PFA gong</h3>
 
                                 <div class="blog-meta big-meta">
-                                    <small><a href="blog-football-EPL-Leicester.html" title="">04 November, 2019</a></small>
-                                    <small><a href="blog-football-EPL-Leicester.html" title="">by Gzhegozh</a></small>
-                                    <small><a href="#" title=""><i class="fa fa-eye"></i> 8888</a></small>
+                                        <small><a title=""><Link to="/">04 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                    
                                 </div>
 
                                 <PostSharing/>
@@ -61,10 +63,10 @@ const BlogFootballEPLLeicester = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a href="#" title="">Topscore</a></small>
-                                    <small><a href="#" title="">Vardy</a></small>
-                                    <small><a href="#" title="">Leicester</a></small>
-                                    <small><a href="#" title="">Challenge</a></small>
+                                    <small><a title=""><Link to="/">Vardy</Link></a></small>
+                                    <small><a title=""><Link to="/">Top Scorer</Link></a></small>
+                                    <small><a title=""><Link to="/">Challenge</Link></a></small>
+                                    <small><a title=""><Link to="/">Possibility</Link></a></small>
                                 </div>
 
                                 <PostSharing/>

@@ -18,8 +18,8 @@ const Firstsection = () => {
                                     <div className="blog-meta">
                                         <span className="bg-aqua"><a title=""><Link to="/EnglishPL">English Premier League</Link></a></span>
                                         <h4><a title=""><Link to="/BlogFootballEPL">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI</Link> </a></h4>
-                                        <small><a href="blog-football-EPL.html" title="">08 November, 2019</a></small>
-                                        <small><a href="#" title="">by Gzhegozh Bzhezh</a></small>
+                                        <small><a title=""><Link to="/">8 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
                                     </div>
                                 </div>
                             </div>
@@ -32,10 +32,10 @@ const Firstsection = () => {
                              <div className="shadoweffect">
                                 <div className="shadow-desc">
                                     <div className="blog-meta">
-                                        <span className="bg-aqua"><a href="blog-football-category-MSL.html" title="">Major Soccer League</a></span>
-                                        <h4><a href="blog-football-MSL.html" title="">Lodeiro vs Pozuelo: The creative pair central as Seattle meet Toronto</a></h4>
-                                        <small><a href="blog-football-MSL.html" title="">9 November, 2019</a></small>
-                                        <small><a href="#" title="">Gzhegozh Bzhezh</a></small>
+                                        <span className="bg-aqua"><a title=""><Link to="/MajorSL">Major Soccer League</Link> </a></span>
+                                        <h4><a title=""><Link to="/BlogFootballMSL">Lodeiro vs Pozuelo: The creative pair central as Seattle meet Toronto</Link></a></h4>
+                                        <small><a title=""><Link to="/">9 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
                                     </div>
                                 </div>
                             </div>
@@ -48,10 +48,10 @@ const Firstsection = () => {
                              <div className="shadoweffect">
                                 <div className="shadow-desc">
                                     <div className="blog-meta">
-                                        <span className="bg-aqua"><a href="blog-football-category-BL.html" title="">English Premier League</a></span>
-                                        <h4><a href="blog-football-BL.html" title="">What next for Bayern following Kovac sacking?</a></h4>
-                                        <small><a href="blog-football-BL.html" title="">05 November, 2019</a></small>
-                                        <small><a href="#" title="">by Gzhegozh</a></small>
+                                        <span className="bg-aqua"><a title=""><Link to="/BundesL">German Bundesliga</Link></a></span>
+                                        <h4><a title=""><Link to="/BlogFootballBL">What next for Bayern following Kovac sacking?</Link></a></h4>
+                                        <small><a title=""><Link to="/">5 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
                                     </div>
                                 </div>
                              </div>

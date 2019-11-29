@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import AboutAuthor from './LowSection/AboutAuthor'
 import YouMayAlsoLike from './LowSection/YouMayAlsoLike'
 import Comments from './LowSection/Comments'
@@ -18,14 +20,14 @@ const BlogFootballEPLKlopp = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a href="blog-football-category-EPL.html" title="">English Premier League</a></span>
+                            <span class="color-green"><a title=""><Link to="/EnglishPL">English Permier League</Link></a></span>
 
                                 <h3>Liverpool vs Manchester: The ultimate 50/1 'Request A Bet'</h3>
 
                                 <div class="blog-meta big-meta">
-                                    <small><a href="blog-football-MSL.html" title="">09 November, 2019</a></small>
-                                    <small><a href="blog-football-EPL-Klo.html" title="">by Gzhegozh</a></small>
-                                    <small><a href="#" title=""><i class="fa fa-eye"></i> 9999</a></small>
+                                        <small><a title=""><Link to="/">06 November, 2019</Link></a></small>
+                                        <small><a title=""><Link to="/">by Gzhegozh</Link></a></small>
+                                    
                                 </div>
 
                                 <PostSharing/>
@@ -67,10 +69,10 @@ const BlogFootballEPLKlopp = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a href="#" title="">Liverpool</a></small>
-                                    <small><a href="#" title="">Man City</a></small>
-                                    <small><a href="#" title="">Central game</a></small>
-                                    <small><a href="#" title="">Challenge</a></small>
+                                    <small><a title=""><Link to="/">Liverpool</Link></a></small>
+                                    <small><a title=""><Link to="/">Man City</Link></a></small>
+                                    <small><a title=""><Link to="/">Bet</Link></a></small>
+                                    <small><a title=""><Link to="/">Central game</Link></a></small>
                                 </div>
 
                                 <PostSharing/>

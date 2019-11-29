@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const YouMayAlsoLike = () => {
     return (
@@ -8,17 +9,19 @@ const YouMayAlsoLike = () => {
                                     <div class="col-lg-6">
                                         <div class="blog-box">
                                             <div class="post-media">
-                                                <a href="blog-football-EPL.html" title="">
+                                                <a title="">
+                                                    <Link to="/EnglishPL">
                                                     <img src="images/EPL/LFC_MC_hm.png" alt="" class="img-fluid"/>
                                                     <div class="hovereffect">
                                                         <span class=""></span>
                                                     </div>
+                                                    </Link>
                                                 </a>
                                             </div>
                                             <div class="blog-meta">
-                                                <h4><a href="blog-football-EPL.html" title="">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI </a></h4>
-                                                <small><a href="blog-football-category-EPL.html" title="">Gzhegozh</a></small>
-                                                <small><a href="blog-category-01.html" title="">08 November, 2019</a></small>
+                                                <h4><a title=""><Link to="/BlogFootballEPL">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI </Link></a></h4>
+                                                <small><a title=""><Link to="/EnglishPL">Gzhegozh</Link></a></small>
+                                                <small><a title=""><Link to="/EnglishPL">08 November, 2019</Link></a></small>
                                             </div>
                                         </div>
                                     </div>
@@ -26,17 +29,19 @@ const YouMayAlsoLike = () => {
                                     <div class="col-lg-6">
                                         <div class="blog-box">
                                             <div class="post-media">
-                                                <a href="blog-football-BL.html" title="">
+                                                <a title="">
+                                                    <Link to="/BundesL">
                                                     <img src="images/BL/BMteam.png" alt="" class="img-fluid"/>
                                                     <div class="hovereffect">
                                                         <span class=""></span>
                                                     </div>
+                                                    </Link>
                                                 </a>
                                             </div>
                                             <div class="blog-meta">
-                                                <h4><a href="blog-football-BL.html" title="">What next for Bayern following Kovac sacking?</a></h4>
-                                                <small><a href="blog-football-category-BL.html" title="">Gzhegozh</a></small>
-                                                <small><a href="blog-category-01.html" title="">05 November, 2019</a></small>
+                                                <h4><a title=""><Link to="/BlogFootballBL">What next for Bayern following Kovac sacking?</Link></a></h4>
+                                                <small><a title=""><Link to="/BundesL">Gzhegozh</Link></a></small>
+                                                <small><a title=""><Link to="/BundesL">05 November, 2019</Link></a></small>
                                             </div>
                                         </div>
                                     </div>
