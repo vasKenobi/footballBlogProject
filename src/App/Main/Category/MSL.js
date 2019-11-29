@@ -1,5 +1,7 @@
 import React from 'react'
 import Postlist from '../Mainsection/Postlist/Postlist'
+import PostListItem from '../Mainsection/Postlist/PostListItem'
+import posts from '../Mainsection/Postlist/posts'
 
 const MSL = () => {
     return (
@@ -21,7 +23,37 @@ const MSL = () => {
                 </div>
             </div>
 
-            <Postlist/>
+            <div className="blog-list clearfix">
+
+            {
+                    posts.filter((item)=>item.categoryId===2).map(({
+                        id,
+                        category,
+                        categoryId,
+                        urlLink,
+                        title,
+                        description,
+                        date,
+                        author,
+                        image
+                    })=> (
+                        <div key={id}>
+                            <PostListItem
+                                image={image}
+                                category={category}
+                                title={title}
+                                description={description}
+                                date={date}
+                                author={author}
+                                urlLink={urlLink}
+                            />
+                            <hr className="invis"/>
+                        </div> 
+                    ))
+                }
+                
+
+             </div>
 
 
         </div>

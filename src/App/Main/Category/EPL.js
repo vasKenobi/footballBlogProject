@@ -1,5 +1,7 @@
 import React from 'react'
 import Postlist from '../Mainsection/Postlist/Postlist'
+import PostListItem from '../../Main/Mainsection/Postlist/PostListItem'
+import posts from '../../Main/Mainsection/Postlist/posts'
 
 const EPL = () => {
     return (
@@ -21,7 +23,39 @@ const EPL = () => {
                 </div>
             </div>
 
-            <Postlist/>
+            {/* <Postlist/> */}
+
+            <div className="blog-list clearfix">
+
+            {
+                    posts.filter((item)=>item.categoryId===1).map(({
+                        id,
+                        category,
+                        categoryId,
+                        urlLink,
+                        title,
+                        description,
+                        date,
+                        author,
+                        image
+                    })=> (
+                        <div key={id}>
+                            <PostListItem
+                                image={image}
+                                category={category}
+                                title={title}
+                                description={description}
+                                date={date}
+                                author={author}
+                                urlLink={urlLink}
+                            />
+                            <hr className="invis"/>
+                        </div> 
+                    ))
+                }
+                
+
+             </div>
 
 
 
