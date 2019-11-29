@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 
 const Popularcategories = () => {
     return (
@@ -8,9 +8,9 @@ const Popularcategories = () => {
                                 <h2 className="widget-title">Popular Categories</h2>
                                 <div className="link-widget">
                                     <ul>
-                                        <li><a href="blog-football-category-EPL.html">English Premier League <span>(888)</span></a></li>
-                                        <li><a href="blog-football-category-MSL.html">Major Soccer League <span>(999)</span></a></li>
-                                        <li><a href="blog-football-category-BL.html">German Bundesliga <span>(444)</span></a></li>
+                                        <li><a><Link to="/EnglishPL">English Premier League <span>(888)</span></Link></a></li>
+                                        <li><a><Link to="/MajorSL">Major Soccer League <span>(999)</span></Link></a></li>
+                                        <li><a><Link to="/BundesL">German Bundesliga <span>(444)</span></Link></a></li>
                                     </ul>
                                 </div>
                             </div>

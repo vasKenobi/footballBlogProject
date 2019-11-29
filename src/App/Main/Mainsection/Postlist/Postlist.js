@@ -12,6 +12,7 @@ const Postlist = () => {
                     posts.map(({
                         id,
                         category,
+                        urlLink,
                         title,
                         description,
                         date,
@@ -26,6 +27,7 @@ const Postlist = () => {
                                 description={description}
                                 date={date}
                                 author={author}
+                                urlLink={urlLink}
                             />
                             <hr className="invis"/>
                         </div> 

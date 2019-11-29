@@ -6,7 +6,7 @@ import Mainsection from './Mainsection/Mainsection'
 const Main = () => {
     return (
       <div>
-          <Firstsection/>
+        <Firstsection/>
 
         <Mainsection/>
 
