@@ -20,13 +20,13 @@ const BlogFootballEPLTopScorer = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a title=""><Link to="/EnglishPL">English Permier League</Link></a></span>
+                            <span class="color-green"><Link title="" to="/EnglishPL">English Permier League</Link></span>
 
                                 <h3>Top scorer Vardy leapfrogs De Bruyne to top Premier League form rankings</h3>
 
                                 <div class="blog-meta big-meta">
-                                        <small><a title=""><Link to="/">05 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <small><Link title="" to="/">05 November, 2019</Link></small>
+                                        <small><Link title="" to="/">Gzhegozh Bzhezh</Link></small>
                                     
                                 </div>
 
@@ -63,10 +63,10 @@ const BlogFootballEPLTopScorer = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a title=""><Link to="/">Liverpool</Link></a></small>
-                                    <small><a title=""><Link to="/">Man City</Link></a></small>
-                                    <small><a title=""><Link to="/">Challenge</Link></a></small>
-                                    <small><a title=""><Link to="/">Possibility</Link></a></small>
+                                    <small><Link title="" to="/">Liverpool</Link></small>
+                                    <small><Link title="" to="/">Man City</Link></small>
+                                    <small><Link title="" to="/">Challenge</Link></small>
+                                    <small><Link title="" to="/">Possibility</Link></small>
                                 </div>
 
                                 <PostSharing/>

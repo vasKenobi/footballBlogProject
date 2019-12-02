@@ -8,9 +8,9 @@ const Popularcategories = () => {
                                 <h2 className="widget-title">Popular Categories</h2>
                                 <div className="link-widget">
                                     <ul>
-                                        <li><a><Link to="/EnglishPL">English Premier League <span>(888)</span></Link></a></li>
-                                        <li><a><Link to="/MajorSL">Major Soccer League <span>(999)</span></Link></a></li>
-                                        <li><a><Link to="/BundesL">German Bundesliga <span>(444)</span></Link></a></li>
+                                        <li><Link to="/EnglishPL">English Premier League <span>(888)</span></Link></li>
+                                        <li><Link to="/MajorSL">Major Soccer League <span>(999)</span></Link></li>
+                                        <li><Link to="/BundesL">German Bundesliga <span>(444)</span></Link></li>
                                     </ul>
                                 </div>
                             </div>

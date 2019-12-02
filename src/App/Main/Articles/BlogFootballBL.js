@@ -20,13 +20,13 @@ const BlogFootballBL = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a title=""><Link to="/BundesL">German Bundesliga</Link></a></span>
+                            <span class="color-green"><Link to="/BundesL" title="">German Bundesliga</Link></span>
 
                                 <h3>What next for Bayern following Kovac sacking?</h3>
 
                                 <div class="blog-meta big-meta">
-                                        <small><a title=""><Link to="/">5 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <small><Link to="/" title="">5 November, 2019</Link></small>
+                                        <small><Link to="/" title="">Gzhegozh Bzhezh</Link></small>
                                     
                                 </div>
 
@@ -88,10 +88,10 @@ const BlogFootballBL = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Bayern</span>
-                                    <small><a title=""><Link to="/">New coash</Link></a></small>
-                                    <small><a title=""><Link to="/">Chances</Link></a></small>
-                                    <small><a title=""><Link to="/">Changes</Link></a></small>
-                                    <small><a title=""><Link to="/">Possibility</Link></a></small>
+                                    <small><Link title="" to="/">New coash</Link></small>
+                                    <small><Link title="" to="/">Chances</Link></small>
+                                    <small><Link title="" to="/">Changes</Link></small>
+                                    <small><Link title="" to="/">Possibility</Link></small>
                                 </div>
 
                                 <PostSharing/>

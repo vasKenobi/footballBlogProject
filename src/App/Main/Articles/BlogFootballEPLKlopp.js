@@ -20,13 +20,13 @@ const BlogFootballEPLKlopp = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a title=""><Link to="/EnglishPL">English Permier League</Link></a></span>
+                            <span class="color-green"><Link title="" to="/EnglishPL">English Permier League</Link></span>
 
                                 <h3>Liverpool vs Manchester: The ultimate 50/1 'Request A Bet'</h3>
 
                                 <div class="blog-meta big-meta">
-                                        <small><a title=""><Link to="/">06 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">by Gzhegozh</Link></a></small>
+                                        <small><Link title="" to="/">06 November, 2019</Link></small>
+                                        <small><Link title="" to="/">by Gzhegozh</Link></small>
                                     
                                 </div>
 
@@ -69,10 +69,10 @@ const BlogFootballEPLKlopp = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a title=""><Link to="/">Liverpool</Link></a></small>
-                                    <small><a title=""><Link to="/">Man City</Link></a></small>
-                                    <small><a title=""><Link to="/">Bet</Link></a></small>
-                                    <small><a title=""><Link to="/">Central game</Link></a></small>
+                                    <small><Link title="" to="/">Liverpool</Link></small>
+                                    <small><Link title="" to="/">Man City</Link></small>
+                                    <small><Link title="" to="/">Bet</Link></small>
+                                    <small><Link title="" to="/">Central game</Link></small>
                                 </div>
 
                                 <PostSharing/>

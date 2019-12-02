@@ -20,13 +20,13 @@ const BlogFootballMSL = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                                <span class="color-green"><a title=""><Link to="/MajorSL">Major Soccer League</Link></a></span>
+                                <span class="color-green"><Link title="" to="/MajorSL">Major Soccer League</Link></span>
 
                                 <h3>Lodeiro vs Pozuelo: The creative pair central as Seattle meet Toronto</h3>
 
                                 <div class="blog-meta big-meta">
-                                        <small><a title=""><Link to="/">9 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <small><Link title="" to="/">9 November, 2019</Link></small>
+                                        <small><Link title="" to="/">Gzhegozh Bzhezh</Link></small>
                                     
                                 </div>
 
@@ -74,10 +74,10 @@ const BlogFootballMSL = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a title=""><Link to="/">MLS</Link></a></small>
-                                    <small><a title=""><Link to="/">Cup Final</Link></a></small>
-                                    <small><a title=""><Link to="/">Season Final</Link></a></small>
-                                    <small><a title=""><Link to="/">Challenge</Link></a></small>
+                                    <small><Link title="" to="/">MLS</Link></small>
+                                    <small><Link title="" to="/">Cup Final</Link></small>
+                                    <small><Link title="" to="/">Season Final</Link></small>
+                                    <small><Link title="" to="/">Challenge</Link></small>
                                 </div>
 
                                 <PostSharing/>

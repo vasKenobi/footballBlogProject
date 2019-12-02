@@ -6,6 +6,20 @@ import {Link} from 'react-router-dom'
 
 
 class PostListItem extends Component {
+    renderLike = () => {
+        const  {
+            isLiked,
+            id,
+            removeLike,
+            addLike,
+        } = this.props
+        if(isLiked) {
+            removeLike(id)
+        } else {
+            addLike(id)
+        }
+    }
+
   render(){
       const{
           category,
@@ -15,6 +29,7 @@ class PostListItem extends Component {
           date,
           author,
           image,
+          isLiked,
 
       }=this.props
 
@@ -22,23 +37,25 @@ class PostListItem extends Component {
                                 <div className="blog-box row">
                                     <div className="col-md-4">
                                         <div className="post-media">
-                                            <a title="">
-                                                <Link to={urlLink}>
-                                                <img src={image} alt="" className="img-fluid"/>
-                                                <div className="hovereffect"></div>
+                                                <Link title="" to={urlLink}>
+                                                    <img src={image} alt="" className="img-fluid"/>
+                                                    <div className="hovereffect"></div>
                                                 </Link>
-                                            </a>
                                         </div>
                                     </div>
 
                                     <div className="blog-meta big-meta col-md-8">
+                                    <button className="likeButton" onClick={()=>this.renderLike()}>
+                                        {isLiked ? <span>&#9829;</span> : <span>&#9825;</span>}
+                                    </button>
+
                                     
-                                        <span className="bg-aqua"><a title=""><Link to={urlLink}>{category}</Link></a></span>
-                                        <h4><a title=""><Link to={urlLink}>{title}</Link></a></h4>
-                                        <p>{this.props.description}</p>
+                                        <span className="bg-aqua"><Link title="" to={urlLink}>{category}</Link></span>
+                                        <h4><Link title="" to={urlLink}>{title}</Link></h4>
+                                        <p>{description}</p>
                                      
-                                        <small><a title=""><Link to={urlLink}>{date}</Link></a></small>
-                                        <small><a title=""><Link to={urlLink}>{author}</Link></a></small>
+                                        <small><Link title="" to={urlLink}>{date}</Link></small>
+                                        <small><Link title="" to={urlLink}>{author}</Link></small>
                                         
                                     </div>
                                 </div>

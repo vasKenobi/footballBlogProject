@@ -10,13 +10,13 @@ const Footer = () => {
                     <div class="col-lg-8 offset-lg-2">
                         <div class="widget">
                             <div class="footer-text text-center">
-                                <a><Link to="/"><img src={footerLogo} alt="" class="img-fluid"/></Link></a>
+                                    <Link to="/"><img src={footerLogo} alt="" class="img-fluid"/></Link>
                                 <p>Football blog - last news, interesting articles, forecasts.</p>
                                 <div class="social">
-                                    <a data-toggle="tooltip" data-placement="bottom" title="Facebook"><Link to="/"><i class="fa fa-facebook"></i></Link></a>              
-                                    <a data-toggle="tooltip" data-placement="bottom" title="Twitter"><Link to="/"><i class="fa fa-twitter"></i></Link></a>
-                                    <a data-toggle="tooltip" data-placement="bottom" title="Instagram"><Link to="/"><i class="fa fa-instagram"></i></Link></a>
-                                    <a data-toggle="tooltip" data-placement="bottom" title="Pinterest"><Link to="/"><i class="fa fa-pinterest"></i></Link></a>
+                                    <Link data-toggle="tooltip" data-placement="bottom" title="Facebook" to="/"><i class="fa fa-facebook"></i></Link>              
+                                    <Link data-toggle="tooltip" data-placement="bottom" title="Twitter" to="/"><i class="fa fa-twitter"></i></Link>
+                                    <Link data-toggle="tooltip" data-placement="bottom" title="Instagram" to="/"><i class="fa fa-instagram"></i></Link>
+                                    <Link data-toggle="tooltip" data-placement="bottom" title="Pinterest" to="/"><i class="fa fa-pinterest"></i></Link>
                                 </div>
 
                                 <hr class="invis"/>

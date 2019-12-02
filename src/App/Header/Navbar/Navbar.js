@@ -12,19 +12,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse justify-content-md-center">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a class="nav-link color-green-hover"><Link to="/">Home</Link></a>
+                                <Link class="nav-link color-green-hover" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a class="nav-link color-green-hover"><Link to="/EnglishPL">English Premier League</Link></a>
+                                <Link class="nav-link color-green-hover" to="/EnglishPL">English Premier League</Link>
                             </li>
                             <li className="nav-item">
-                                <a class="nav-link color-green-hover"><Link to="/MajorSL">USA Major Soccer League</Link></a>
+                                <Link class="nav-link color-green-hover" to="/MajorSL">USA Major Soccer League</Link>
                             </li>
                             <li className="nav-item">
-                                <a class="nav-link color-green-hover"><Link to="/BundesL">German Bundesliga</Link></a>
+                                <Link class="nav-link color-green-hover" to="/BundesL">German Bundesliga</Link>
                             </li>
                             <li className="nav-item">
-                                <a class="nav-link color-green-hover"><Link to="/Contact">Contact</Link></a>
+                                <Link class="nav-link color-green-hover" to="/Contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

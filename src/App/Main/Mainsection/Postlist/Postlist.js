@@ -4,7 +4,11 @@ import PostListItem from './PostListItem'
 import posts from './posts'
 
 
-const Postlist = () => {
+const Postlist = ({
+    postsLikeState,
+    removeLike,
+    addLike,
+}) => {
     return (
         <div className="blog-list clearfix">
 
@@ -17,7 +21,8 @@ const Postlist = () => {
                         description,
                         date,
                         author,
-                        image
+                        image,
+                        
                     })=> (
                         <div key={id}>
                             <PostListItem
@@ -28,6 +33,10 @@ const Postlist = () => {
                                 date={date}
                                 author={author}
                                 urlLink={urlLink}
+                                isLiked={postsLikeState}
+                                removeLike={removeLike}
+								addLike={addLike}
+
                             />
                             <hr className="invis"/>
                         </div> 

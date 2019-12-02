@@ -16,10 +16,10 @@ const Firstsection = () => {
                              <div className="shadoweffect">
                                 <div className="shadow-desc">
                                     <div className="blog-meta">
-                                        <span className="bg-aqua"><a title=""><Link to="/EnglishPL">English Premier League</Link></a></span>
-                                        <h4><a title=""><Link to="/BlogFootballEPL">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI</Link> </a></h4>
-                                        <small><a title=""><Link to="/">8 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <span className="bg-aqua"><Link title="" to="/EnglishPL">English Premier League</Link></span>
+                                        <h4><Link title="" to="/BlogFootballEPL">No Salah, Firmino or Mane in Liverpool and Manchester City combined XI</Link> </h4>
+                                        <small><Link title="" to="/">8 November, 2019</Link></small>
+                                        <small><Link title="" to="/">Gzhegozh Bzhezh</Link></small>
                                     </div>
                                 </div>
                             </div>
@@ -32,10 +32,10 @@ const Firstsection = () => {
                              <div className="shadoweffect">
                                 <div className="shadow-desc">
                                     <div className="blog-meta">
-                                        <span className="bg-aqua"><a title=""><Link to="/MajorSL">Major Soccer League</Link> </a></span>
-                                        <h4><a title=""><Link to="/BlogFootballMSL">Lodeiro vs Pozuelo: The creative pair central as Seattle meet Toronto</Link></a></h4>
-                                        <small><a title=""><Link to="/">9 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <span className="bg-aqua"><Link title="" to="/MajorSL">Major Soccer League</Link> </span>
+                                        <h4><Link title="" to="/BlogFootballMSL">Lodeiro vs Pozuelo: The creative pair central as Seattle meet Toronto</Link></h4>
+                                        <small><Link title="" to="/">9 November, 2019</Link></small>
+                                        <small><Link title="" to="/">Gzhegozh Bzhezh</Link></small>
                                     </div>
                                 </div>
                             </div>
@@ -48,10 +48,10 @@ const Firstsection = () => {
                              <div className="shadoweffect">
                                 <div className="shadow-desc">
                                     <div className="blog-meta">
-                                        <span className="bg-aqua"><a title=""><Link to="/BundesL">German Bundesliga</Link></a></span>
-                                        <h4><a title=""><Link to="/BlogFootballBL">What next for Bayern following Kovac sacking?</Link></a></h4>
-                                        <small><a title=""><Link to="/">5 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <span className="bg-aqua"><Link title="" to="/BundesL">German Bundesliga</Link></span>
+                                        <h4><Link title="" to="/BlogFootballBL">What next for Bayern following Kovac sacking?</Link></h4>
+                                        <small><Link title="" to="/">5 November, 2019</Link></small>
+                                        <small><Link title="" to="/">Gzhegozh Bzhezh</Link></small>
                                     </div>
                                 </div>
                              </div>

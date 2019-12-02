@@ -1661,3 +1661,12 @@ hr.invis3 {
     -o-border-radius: 50%;
     border-radius: 50%
 }
+.likeButton{
+    background-color: #74a044;
+    border: white;
+    margin: 5px;
+}
+.searchButton{
+    background-color: #74a044;
+    border: white;
+}

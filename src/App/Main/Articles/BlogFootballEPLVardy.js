@@ -20,13 +20,13 @@ const BlogFootballEPLVardy = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a title=""><Link to="/EnglishPL">English Permier League</Link></a></span>
+                            <span class="color-green"><Link title="" to="/EnglishPL">English Permier League</Link></span>
 
                                 <h3>Fanteam Fantasy Football: Vardy to extend top-six record at Arsenal's expense </h3>
 
                                 <div class="blog-meta big-meta">
-                                        <small><a title=""><Link to="/">08 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">by Gzhegozh</Link></a></small>
+                                        <small><Link title="" to="/">08 November, 2019</Link></small>
+                                        <small><Link title="" to="/">by Gzhegozh</Link></small>
                                     
                                 </div>
 
@@ -68,10 +68,10 @@ const BlogFootballEPLVardy = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a title=""><Link to="/">Vardy</Link></a></small>
-                                    <small><a title=""><Link to="/">Striker</Link></a></small>
-                                    <small><a title=""><Link to="/">Good shape</Link></a></small>
-                                    <small><a title=""><Link to="/">Leader</Link></a></small>
+                                    <small><Link title="" to="/">Vardy</Link></small>
+                                    <small><Link title="" to="/">Striker</Link></small>
+                                    <small><Link title="" to="/">Good shape</Link></small>
+                                    <small><Link title="" to="/">Leader</Link></small>
                                 </div>
 
                                 <PostSharing/>

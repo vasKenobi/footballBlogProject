@@ -11,15 +11,15 @@ const AboutAuthor = () => {
                                     </div>
 
                                     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                                        <h4><a href="#">Gzhegozh</a></h4>
+                                        <h4><Link to="/">Gzhegozh</Link></h4>
                                         <p>World Famous Football expert, Gzhegozh "Iceman" Bzhezhishchekevich writes great articles and makes very accurate forecasts.</p>
 
                                         <div class="topsocial">
-                                            <a data-toggle="tooltip" data-placement="bottom" title="Facebook"><Link to="/"><i class="fa fa-facebook"></i></Link></a>
-                                            <a data-toggle="tooltip" data-placement="bottom" title="Youtube"><Link to="/"><i class="fa fa-youtube"></i></Link></a>
-                                            <a data-toggle="tooltip" data-placement="bottom" title="Pinterest"><Link to="/"><i class="fa fa-pinterest"></i></Link></a>
-                                            <a data-toggle="tooltip" data-placement="bottom" title="Twitter"><Link to="/"><i class="fa fa-twitter"></i></Link></a>
-                                            <a data-toggle="tooltip" data-placement="bottom" title="Instagram"><Link to="/"><i class="fa fa-instagram"></i></Link></a>
+                                            <Link data-toggle="tooltip" data-placement="bottom" title="Facebook" to="/"><i class="fa fa-facebook"></i></Link>
+                                            <Link data-toggle="tooltip" data-placement="bottom" title="Youtube" to="/"><i class="fa fa-youtube"></i></Link>
+                                            <Link data-toggle="tooltip" data-placement="bottom" title="Pinterest" to="/"><i class="fa fa-pinterest"></i></Link>
+                                            <Link data-toggle="tooltip" data-placement="bottom" title="Twitter" to="/"><i class="fa fa-twitter"></i></Link>
+                                            <Link data-toggle="tooltip" data-placement="bottom" title="Instagram" to="/"><i class="fa fa-instagram"></i></Link>
                                         </div>
 
                                     </div>

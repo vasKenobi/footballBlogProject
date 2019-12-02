@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import Postlist from '../Mainsection/Postlist/Postlist'
 import PostListItem from '../Mainsection/Postlist/PostListItem'
 import posts from '../Mainsection/Postlist/posts'
@@ -14,8 +15,8 @@ const MSL = () => {
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                                <li class="breadcrumb-item"><Link to="/">Home</Link></li>
+                                <li class="breadcrumb-item"><Link to="/">Blog</Link></li>
                                 <li class="breadcrumb-item active">Major Soccer League</li>
                             </ol>
                         </div>                   

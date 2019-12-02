@@ -21,7 +21,11 @@ import BlogFootballEPLVardy from '../Articles/BlogFootballEPLVardy'
 
 
 
-const Mainsection = () => {
+const Mainsection = ({
+    postsLikeState,
+    addLike,
+    removeLike
+}) => {
     return (
 
         <section className="section wb">
@@ -31,7 +35,12 @@ const Mainsection = () => {
                         <div className="page-wrapper">
                         {/* <Postlist></Postlist> */}
 
-                        <Route path="/" exact component={Postlist}/>
+                        <Route path="/" exact render={()=>(
+                            <Postlist
+                                postsLikeState={postsLikeState}
+                                addLike={addLike}
+                                removeLike={removeLike}/>
+                                )}/>
                         <Route path="/EnglishPL" exact component={EPL}/>
                         <Route path="/MajorSL" exact component={MSL}/>
                         <Route path="/BundesL" exact component={BL}/>
@@ -45,6 +54,8 @@ const Mainsection = () => {
                         <Route path="/BlogFootballEPLTopScorer" exact component={BlogFootballEPLTopScorer}/>
                         <Route path="/BlogFootballEPLTopScoreLFC" exact component={BlogFootballEPLTopScoreLFC}/>
                         <Route path="/BlogFootballEPLVardy" exact component={BlogFootballEPLVardy}/>
+                        
+
                             
                         </div>
 

@@ -12,7 +12,7 @@ const Breadcrumbs = () => {
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a><Link to="/">Home</Link></a></li>
+                                <li class="breadcrumb-item"><Link to="/">Home</Link></li>
                                 <li class="breadcrumb-item active">Blog</li>
                             </ol>
                         </div>                  

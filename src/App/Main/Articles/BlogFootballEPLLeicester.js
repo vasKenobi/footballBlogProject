@@ -20,13 +20,13 @@ const BlogFootballEPLLeicester = () => {
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="page-wrapper">
                             <div class="blog-title-area">
-                            <span class="color-green"><a title=""><Link to="/EnglishPL">English Permier League</Link></a></span>
+                            <span class="color-green"><Link title="" to="/EnglishPL">English Permier League</Link></span>
 
                                 <h3>Leicester star triumphs to land PFA gong</h3>
 
                                 <div class="blog-meta big-meta">
-                                        <small><a title=""><Link to="/">04 November, 2019</Link></a></small>
-                                        <small><a title=""><Link to="/">Gzhegozh Bzhezh</Link></a></small>
+                                        <small><Link title="" to="/">04 November, 2019</Link></small>
+                                        <small><Link title="" to="/">Gzhegozh Bzhezh</Link></small>
                                     
                                 </div>
 
@@ -63,10 +63,10 @@ const BlogFootballEPLLeicester = () => {
                             <div class="blog-title-area">
                                 <div class="tag-cloud-single">
                                     <span>Tags</span>
-                                    <small><a title=""><Link to="/">Vardy</Link></a></small>
-                                    <small><a title=""><Link to="/">Top Scorer</Link></a></small>
-                                    <small><a title=""><Link to="/">Challenge</Link></a></small>
-                                    <small><a title=""><Link to="/">Possibility</Link></a></small>
+                                    <small><Link title="" to="/">Vardy</Link></small>
+                                    <small><Link title="" to="/">Top Scorer</Link></small>
+                                    <small><Link title="" to="/">Challenge</Link></small>
+                                    <small><Link title="" to="/">Possibility</Link></small>
                                 </div>
 
                                 <PostSharing/>
