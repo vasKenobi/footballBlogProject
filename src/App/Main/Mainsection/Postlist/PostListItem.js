@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+import {connect} from 'react-redux'
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom'
 
@@ -61,4 +62,10 @@ class PostListItem extends Component {
 
   }
 
-  export default PostListItem
+  const mapStateToProps = (state,props) => ({
+    isLiked: state[props.id]
+})
+
+export default connect(
+    mapStateToProps
+)(PostListItem)
