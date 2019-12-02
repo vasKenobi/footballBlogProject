@@ -1,9 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-<<<<<<< HEAD
-
-=======
->>>>>>> 61cae6e49025e593e1c7b52eac388098efacd4b2
 
 const Breadcrumbs = () => {
     return (

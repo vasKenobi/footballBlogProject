@@ -13,42 +13,12 @@ import Footer from './Footer/Footer'
   
 
 class App extends Component {
-  state = {
-    postsLikeState: {
-
-		}
-
-  }
-
-  addLike = (postId) => {
-		this.setState((prevState)=>({
-			postsLikeState:{
-				...prevState.postsLikeState,
-				[postId]:true
-			}
-		}))
-  }
-  
-  removeLike = (postId) => {
-		this.setState((prevState)=>({
-			postsLikeState:{
-				...prevState.postsLikeState,
-				[postId]:false
-			}
-		}))
-	}
-
-
 
   render(){
     return (
       <div>
           <Header/>
-          <Main
-            postsLikeState={this.state.postsLikeState}
-            removeLike={this.removeLike}
-            addLike={this.addLike}
-          />
+          <Main/>
           <Footer/>
 
     </div>

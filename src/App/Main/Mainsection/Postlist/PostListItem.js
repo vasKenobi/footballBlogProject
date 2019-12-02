@@ -6,19 +6,6 @@ import {Link} from 'react-router-dom'
 
 
 class PostListItem extends Component {
-    renderLike = () => {
-        const  {
-            isLiked,
-            id,
-            removeLike,
-            addLike,
-        } = this.props
-        if(isLiked) {
-            removeLike(id)
-        } else {
-            addLike(id)
-        }
-    }
 
   render(){
       const{
@@ -45,7 +32,7 @@ class PostListItem extends Component {
                                     </div>
 
                                     <div className="blog-meta big-meta col-md-8">
-                                    <button className="likeButton" onClick={()=>this.renderLike()}>
+                                    <button className="likeButton">
                                         {isLiked ? <span>&#9829;</span> : <span>&#9825;</span>}
                                     </button>
 

@@ -3,21 +3,12 @@ import Firstsection from './Firstsection/Firstsection'
 import Mainsection from './Mainsection/Mainsection'
 
 
-const Main = ({
-  postsLikeState,
-	removeLike,
-	addLike,
-
-}) => {
+const Main = () => {
     return (
       <div>
         <Firstsection/>
 
-        <Mainsection
-        postsLikeState={postsLikeState}
-        removeLike={removeLike}
-        addLike={addLike}
-/>
+        <Mainsection/>
 
 
       </div>
