@@ -7,6 +7,20 @@ import {Link} from 'react-router-dom'
 
 
 class PostListItem extends Component {
+    renderLike(){
+        const {
+            isLiked,
+            addLike,
+            removeLike,
+            id
+        } = this.props;
+        if(isLiked) {
+            removeLike(id)
+        } else {
+            addLike(id)
+        }
+    }
+
 
   render(){
       const{
@@ -17,7 +31,7 @@ class PostListItem extends Component {
           date,
           author,
           image,
-          isLiked,
+          isLiked = false,
 
       }=this.props
 
@@ -33,7 +47,7 @@ class PostListItem extends Component {
                                     </div>
 
                                     <div className="blog-meta big-meta col-md-8">
-                                    <button className="likeButton">
+                                    <button className="likeButton" onClick={()=>this.renderLike()}>
                                         {isLiked ? <span>&#9829;</span> : <span>&#9825;</span>}
                                     </button>
 
@@ -66,6 +80,19 @@ class PostListItem extends Component {
     isLiked: state[props.id]
 })
 
+const mapDispatchToProps = (dispatch) => ({
+    addLike:(id)=>dispatch({
+        type:"LIKE",
+        id:id,
+    }),
+    removeLike:(id)=>dispatch({
+        type:"DISLIKE",
+        id:id,
+    }),
+})
+
 export default connect(
-    mapStateToProps
+    mapStateToProps,
+    mapDispatchToProps
+
 )(PostListItem)
