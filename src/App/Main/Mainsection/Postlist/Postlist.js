@@ -26,6 +26,7 @@ const Postlist = ({
                     })=> (
                         <div key={id}>
                             <PostListItem
+                                id={id}
                                 image={image}
                                 category={category}
                                 title={title}
