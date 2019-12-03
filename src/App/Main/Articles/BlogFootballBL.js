@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { connect } from 'react-redux';
 
 import AboutAuthor from './LowSection/AboutAuthor'
 import YouMayAlsoLike from './LowSection/YouMayAlsoLike'
@@ -9,7 +10,10 @@ import Banner from './LowSection/Banner'
 import PostSharing from './LowSection/PostSharing'
 import Breadcrumbs from './LowSection/Breadcrumbs'
 
-const BlogFootballBL = () => {
+const BlogFootballBL = ({
+    id,
+    isLiked,
+}) => {
     return (
         <div>
             <Breadcrumbs/>
@@ -29,6 +33,9 @@ const BlogFootballBL = () => {
                                         <small><Link to="/" title="">Gzhegozh Bzhezh</Link></small>
                                     
                                 </div>
+                                <button className="likeButton">
+                                        {isLiked ? <span>&#9829;</span> : <span>&#9825;</span>}
+                                </button>
 
                                 <PostSharing/>
                             </div>
@@ -126,4 +133,12 @@ const BlogFootballBL = () => {
         </div>
     )
 }
-export default BlogFootballBL
+
+const mapStateToProps = (state, props) => ({
+    isLiked : state[props.id]
+})
+
+export default connect(
+    mapStateToProps
+)(BlogFootballBL)
+

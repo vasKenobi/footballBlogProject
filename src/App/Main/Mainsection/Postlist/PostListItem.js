@@ -31,6 +31,7 @@ class PostListItem extends Component {
           date,
           author,
           image,
+          id={id},
           isLiked = false,
 
       }=this.props
