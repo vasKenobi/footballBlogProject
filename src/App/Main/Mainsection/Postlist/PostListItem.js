@@ -24,6 +24,7 @@ class PostListItem extends Component {
 
   render(){
       const{
+          id,
           category,
           urlLink,
           title,
